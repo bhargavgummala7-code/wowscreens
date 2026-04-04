@@ -4,42 +4,114 @@
   <title>Wowscreen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { margin:0; font-family: Arial; }
+    body {
+      margin:0;
+      font-family: 'Segoe UI', sans-serif;
+      background:#0f172a;
+      color:white;
+      text-align:center;
+    }
+
     .hero {
-      background: black;
-      color: white;
-      padding: 80px 20px;
-      text-align: center;
+      padding:100px 20px;
+      background: linear-gradient(to right,#000,#1e293b);
     }
+
+    h1 { font-size:42px; margin-bottom:10px; }
+    h2 { margin-bottom:10px; }
+    p { color:#cbd5f5; }
+
     .btn {
-      padding: 12px 24px;
-      background: red;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
-      display: inline-block;
-      margin-top: 10px;
+      display:inline-block;
+      margin-top:20px;
+      padding:14px 28px;
+      background:#e11d48;
+      color:white;
+      text-decoration:none;
+      border-radius:8px;
+      font-weight:bold;
     }
-    .section { padding: 40px; text-align: center; }
+
+    .section {
+      padding:60px 20px;
+    }
+
+    .dark {
+      background:#020617;
+    }
+
+    .highlight {
+      color:#22c55e;
+      font-weight:bold;
+    }
+
+    .card {
+      margin:15px;
+      padding:20px;
+      background:#1e293b;
+      border-radius:10px;
+    }
+
   </style>
 </head>
 
 <body>
 
+<!-- HERO -->
 <div class="hero">
   <h1>Make Your Moment Go BIG 🎬</h1>
-  <p>Surprise your loved ones on theatre screen</p>
-  <a href="https://wa.me/91XXXXXXXXXX" class="btn">Book Now</a>
+  <p>Surprise your loved ones on theatre screens</p>
+  <a href="https://wa.me/91XXXXXXXXXX" class="btn">Book a Surprise</a>
 </div>
 
+<!-- EXPERIENCE -->
 <div class="section">
+  <h2>Not Just a Message...</h2>
+  <p>Create unforgettable memories that people will talk about forever</p>
+</div>
+
+<!-- HOW IT WORKS -->
+<div class="section dark">
   <h2>How It Works</h2>
-  <p>Submit → Schedule → Surprise 🎉</p>
+  <p>
+    Upload Message → Choose Theatre → We Play It 🎉
+  </p>
 </div>
 
+<!-- USE CASES -->
 <div class="section">
-  <h2>Partner With Us</h2>
-  <p>Earn extra revenue from your theatre</p>
+  <h2>Perfect For</h2>
+
+  <div class="card">🎂 Birthdays</div>
+  <div class="card">💍 Proposals</div>
+  <div class="card">❤️ Anniversaries</div>
+  <div class="card">📢 Brand Promotions</div>
+</div>
+
+<!-- THEATRE OWNERS -->
+<div class="section dark">
+  <h2>For Theatre Owners 💰</h2>
+  <p class="highlight">Turn empty slots into extra revenue</p>
+
+  <p>
+    ✔ No investment required<br>
+    ✔ We bring customers<br>
+    ✔ You earn more per show
+  </p>
+
+  <a href="https://wa.me/91XXXXXXXXXX" class="btn">Partner With Us</a>
+</div>
+
+<!-- TRUST -->
+<div class="section">
+  <h2>Launching Soon 🚀</h2>
+  <p>Starting in Andhra Pradesh — looking for early theatre partners</p>
+</div>
+
+<!-- FINAL CTA -->
+<div class="section dark">
+  <h2>Ready to Create a WOW Moment?</h2>
+  <a href="https://wa.me/91XXXXXXXXXX" class="btn">Get Started</a>
 </div>
 
 </body>
